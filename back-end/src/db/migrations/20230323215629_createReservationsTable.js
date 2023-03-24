@@ -13,7 +13,7 @@ exports.up = function (knex) {
   })
 }
 
-/** called when migration is rolled back */
+/* called when migration is rolled back */
 exports.down = function (knex) {
   return knex.schema.dropTable('reservations')
 }
