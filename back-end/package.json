@@ -1,11 +1,15 @@
 {
-  "name": "starter-restaurant-reservation-back-end",
+  "name": "periodic-tables-back-end",
   "version": "1.0.0",
-  "description": "Starter code for restaurant reservation backend",
-  "main": "src/server.js",
+  "author": {
+    "name": "Alex Myers",
+    "email": "alex@pek10.dev"
+  },
+  "description": "Periodic Tables Back-End",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thinkful-Ed/starter-restaurant-reservation",
+    "url": "https://github.com/pek10/capstone-restaurant-reservation",
     "directory": "/back-end"
   },
   "scripts": {
@@ -25,7 +29,6 @@
     "test:start:run": "run-s test:drop-database start "
   },
   "keywords": [],
-  "author": "",
   "license": "UNLICENSED",
   "dependencies": {
     "cors": "^2.8.5",

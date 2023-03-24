@@ -1,11 +1,14 @@
 {
-  "name": "starter-restaurant-reservation",
+  "name": "periodic-tables-reservation-system",
   "version": "1.0.0",
-  "description": "Starter project restaurant reservation system",
-  "private": true,
+  "author": {
+    "name": "Alex Myers",
+    "email": "alex@pek10.dev"
+  },
+  "description": "Periodic Tables - the ultimate restaurant reservation system",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thinkful-Ed/starter-restaurant-reservation"
+    "url": "https://github.com/pek10/capstone-restaurant-reservation"
   },
   "scripts": {
     "build": "npm -prefix front-end run build",
@@ -46,6 +49,5 @@
     "test:frontend:watch": "npm test --prefix ./front-end"
   },
   "keywords": [],
-  "author": "Thinkful, Inc.",
   "license": "UNLICENSED"
 }
